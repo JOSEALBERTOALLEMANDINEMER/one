@@ -1,0 +1,105 @@
+<!Doctype html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8"/>
+    <title>Jquery</title>
+
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+   
+    <script> -->
+
+      <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+      <script type="text/javascript" src="selectores.js"></script> 
+
+      <script>
+
+      $(document).ready(function(){
+
+                 console.log("jquery y web cargados...");
+      });
+    </script>
+
+    <style>
+             .zebra{
+              border: 5px dashed black;
+             }
+
+             .grande{font-size:30px;}
+
+             .margen-superior{display:block; margin-top:45px; }
+
+             .resaltado{ border-bottom:2px solid green}
+    </style>
+   
+
+
+</head>
+
+
+<body>
+         <h1>Fechas</h1>
+         <p> ejercicio jquery </p>
+     
+      <p id="rojo" class="sinborde">quiero ser parrafo rojo</p>
+
+      <p id="amarillo" class="sinborde">quiero ser parrafo amarillo</p>
+
+      <p id="verde" class="zebra">quiero ser parrafo verde</p>
+
+      <p class="zebra">quiero ser parrafo blanco</p>
+
+      <ul>
+              <li>
+                <a href="#" title="ir">ir a un lugar</a>
+              </li>
+              <li>
+                <a href="#" title="ir1">ir a un lugar 1</a>
+              </li>
+              <li>
+                <a href="#" title="ir2">ir a un lugar 2</a>
+              </li>
+              <li>
+                <a href="#" title="ir3">ir a un lugar 3</a>
+              </li>
+              <li>
+                <a href="#" title="ir4">ir a un lugar 4</a>
+              </li>
+
+
+      </ul>
+        
+
+
+   <div id="caja">
+
+    <h1>hola soy una caja</h1>
+    
+    <ul>
+            <li>elemento1</li>
+            <li class="resaltado">elemento2</li>
+
+
+    </ul>
+
+
+             <span class="resaltado">soy un span</span>
+
+   </div>
+
+
+
+      
+
+</body>
+
+
+
+
+
+</html>

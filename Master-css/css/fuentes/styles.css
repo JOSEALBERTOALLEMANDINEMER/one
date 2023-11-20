@@ -1,0 +1,46 @@
+@font-face {
+    font-family: japancustom;
+    src: url(f/BrunoAceSC-Regular.ttf);
+}
+
+body{
+
+    background: green;
+}
+
+h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    /*colores*/
+
+    /*colores del sistema*/
+    color: mediumpurple;
+    color: midnightblue;
+    /*colores hexadecimales*/
+    color: #eeeeee;
+    /*colores rgb*/
+    color: rgba(39, 89, 161);
+    /*colores rgba*/
+    color: rgba(39, 89, 161, 0.2);
+
+}
+
+h3{
+
+    font-family: japancustom;
+
+    font-weight: bold;
+
+    font-style: inherit;
+
+
+
+}
+
+p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+
+}

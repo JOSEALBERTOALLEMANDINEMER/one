@@ -1,0 +1,59 @@
+
+
+#menu{
+
+    height: 50px;
+}
+
+
+#menu ul{
+
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+
+
+}
+
+.item{
+
+    height: 150px;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+}
+
+.lateral{
+
+    height: 150px;
+
+}
+
+.lateral > div{
+
+    height: 50px;
+}
+
+
+@media(max-width: 650px){
+
+
+    #menu{
+        height: auto;
+    }
+}
+
+/*container-fluid lo expande, el offset-numero da espacio al ultimo*/
+
+
+#slider{
+    height: 450px;
+    overflow: hidden;
+}
+
+#slider img{
+
+    height: 450px;
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration:none;
+}
+
+body{
+    background-color: #FCFCFC;
+    
+}
+
+#header{
+
+    
+
+}
+
+#header h1{
+
+    
+    color: gray;
+    font-size: 35px;
+    text-align: center;
+
+    
+    
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+
+#logo img{
+
+      float: none;
+      margin-left: 435px;
+      margin-top: 5px;
+      margin-bottom: 0px;
+      display: block;
+      width: 35%;
+      text-align: center;
+      overflow: hidden;
+
+}
+
+
+#menu{
+
+    
+    display: block;
+   
+    
+    margin-top: 80px;
+    margin-bottom: 0px;
+    
+    
+    
+    
+    width: 100%;
+    float: left;
+}
+
+
+#menu ul {
+    list-style: none;
+    
+    
+    display: block;
+    text-align: center;
+}
+
+
+#menu ul li{
+
+    
+    
+    display: inline-block;
+    margin-inline: 100px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    font-size: 20px;
+     
+    
+     
+}
+
+#menu ul li a{
+
+    color: gray;
+}
+
+.wrap{
+
+    
+    margin: 0px auto;
+    width: 1200px;
+    
+    
+}
+
+#card1{
+
+    
+    width: 20%;
+    height: 800px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    margin-bottom: 1000px;
+    
+    margin-top: 60px;
+    font-size: 20px;
+    overflow: hidden;
+    float: left;
+    
+   
+
+}
+
+.card1 h1{
+
+     text-align: center;
+}
+
+#card2{
+
+    
+    width: 20%;
+    height: 800px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    margin-bottom: 1000px;
+    
+    margin-top: 60px;
+    font-size: 20px;
+    overflow: hidden;
+    float: left;
+    margin-left: 716px;
+   
+    
+    
+    
+
+
+}
+
+.card2 h1{
+
+    text-align: center;
+}
+
+.box ul li{
+
+    text-align: center;
+
+    margin-top: 80px;
+}
+
+.box ul li a{
+
+    
+
+    color: gray;
+
+
+}
+
+
+

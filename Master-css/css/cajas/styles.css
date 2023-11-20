@@ -1,0 +1,64 @@
+
+/* .caja si le pongo a las dos un class="caja"*/
+
+body{
+
+    padding: 40px;
+}
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#caja1{
+
+    display: block;
+   width: 200px;
+   height: 200px;
+   background-color: blue;
+   border: 10px solid red;
+   margin: 5px 5px 30px 5px;
+   padding: 20px;
+   padding-bottom: 34px;
+   float: left;
+    /*min-width: ;
+    max-width: ;
+    margin-top-bottom-left-right*/
+
+}
+
+
+#caja2, #caja3, #caja4, #caja5,#caja6, #caja7, #caja8{
+
+    display: block;
+   width: 200px;
+   height: 200px;
+   background-color: blue;
+   border: 10px solid green;
+   margin: 5px 5px 30px 5px;
+   padding: 20px;
+   padding-bottom: 34px;
+   float: left;
+
+
+}
+
+#caja1,#caja2, #caja3, #caja4, #caja5,#caja6, #caja7, #caja8 p {
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 230px;
+    
+}
+
+.clearfix{
+
+    float: none;
+    clear: both;
+}

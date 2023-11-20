@@ -1,0 +1,58 @@
+body{
+
+    background: yellowgreen;
+
+
+}
+
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:first-child{
+
+    color: blueviolet;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+
+    color: aquamarine;
+}
+
+ul li:last-child{
+
+    color: black;
+}
+
+#mi-enlace{
+ 
+    font-size: 30px;
+    color: lightsalmon;
+
+}
+
+#mi-enlace:visited/*link*/{
+
+color: white;
+
+}
+
+/*#mi-enlace:hover/// active cuando pulse da otro color o tamano
+
+ */
+
+
+ #boton[type="text"]{
+
+    margin-top: 20px;
+    padding: 10px;
+
+ }
+
+ #boton[type="text"]:focus{
+
+   border: 4px dashed red;
+
+ } 
